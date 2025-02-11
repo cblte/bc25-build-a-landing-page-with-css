@@ -4,90 +4,9 @@
     <meta charset="utf-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width" />
+
+    <link rel="stylesheet" href="/styles.css" />
     <title>Welcome!</title>
-    <style>
-        body {
-            background-color: rgb(229, 231, 235);
-            font-family: system-ui;
-            text-align: center;
-            background-color: #24273a;
-            color: #cad3f5;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            gap: 2.5rem;
-            margin-top: 2rem;
-        }
-
-        nav a {
-            font-weight: 500;
-            color: #89b4fa;
-            /* blue */
-        }
-
-        nav a:hover {
-            color: #74C7EC;
-            /* skye */
-        }
-
-        header nav a:last-child {
-            color: #1E1E2E;
-            background-color: #89b4fa;
-            padding: 0.75rem 0.5rem;
-            margin-top: -0.5rem;
-            border-radius: 0.5rem;
-        }
-
-        header nav a:last-child:hover {
-            background-color: #94e2d5;
-        }
-
-
-        h1 {
-            padding-top: 30px;
-            padding-bottom: 20px;
-        }
-
-        button {
-            border: none;
-            background-color: #89b4fa;
-            color: #1E1E2E;
-            padding: 10px 20px;
-            text-transform: uppercase;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background-color 0.3s ease;
-        }
-
-        button:hover {
-            background-color: #74C7EC;
-        }
-
-        ul {
-            padding: 20px 0;
-            list-style-type: none;
-        }
-
-        li {
-            display: inline;
-            color: gray;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        footer {
-            padding-top: 1rem;
-            margin-top: 5rem;
-            border-top: 2px solid #6c7086;
-        }
-
-        footer p {
-            text-align: center;
-            color: #cdd6f4;
-        }
-    </style>
 </head>
 
 <body>
@@ -108,16 +27,44 @@
             <li>Apple</li>
             <li>Meta</li>
         </ul>
-        <button>Find out more</button>
+        <button>Sign up now</button>
 
-        <footer>
-            <nav>
-                <a href="/">Home</a>
-                <a href="/pricing.html">Pricing</a>
-                <a href="/blog.html">Blog</a>
-            </nav>
-            <p>&copy; 2025 Great Tool. All rights reserved.</p>
-        </footer>
+        <div id="features">
+            <h2>Everything you need to know about this app</h2>
+            <p>A great list of things it allows you to do.</p>
+            <div id="features-grid">
+                <div>
+                    <h3>First benefit</h3>
+                    <p>You can save time</p>
+                </div>
+                <div>
+                    <h3>Second benefit</h3>
+                    <p>You can save money</p>
+                </div>
+                <div>
+                    <h3>3rd benefit</h3>
+                    <p>You can avoid X</p>
+                </div>
+                <div>
+                    <h3>4th benefit</h3>
+                    <p>You can do Y</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <footer>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/pricing.html">Pricing</a>
+            <a href="/blog.html">Blog</a>
+        </nav>
+        <p>&copy; 2025 Great Tool. All rights reserved.</p>
+    </footer>
     </div>
 
 </body>
