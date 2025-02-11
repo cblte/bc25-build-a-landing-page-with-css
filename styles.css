@@ -120,7 +120,7 @@ li {
     margin-right: 1rem;
 }
 
-@media screen and (min-width: 640px) {
+@media (min-width: 640px) {
     #pricing {
         grid-template-columns: 1fr 1fr;
     }
@@ -128,9 +128,8 @@ li {
 
 #pricing div {
     display: flex;
-    padding: 1.0rem;
+    padding: 1rem;
     flex-direction: column;
-    flex-wrap: wrap;
     border-radius: 1rem;
     background-color: #313244;
 }
@@ -151,7 +150,7 @@ li {
     gap: 1.2rem;
     text-align: left;
     padding-left: 2rem;
-    margin-top: 0rem;
+    margin-top: 0;
 }
 
 #pricing .price {
